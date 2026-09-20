@@ -1,0 +1,103 @@
+РУССКИЙ ЯЗЫК:
+
+1. Подготовка:
+   - Запустите Discord и войдите в аккаунт.
+   - Запустите Me Informer by {MFDT}.exe.
+   - При первом запуске выберите язык: «Русский» или «English».
+   - Затем введите свой никнейм и нажмите Enter.
+
+2. Основной экран:
+   - Введите текст статуса в поле ввода и нажмите Enter.
+   - Статус обновится в Discord Rich Presence.
+   - Последний отправленный статус отображается внизу окна.
+   - В верхней части окна показывается приветствие в зависимости от времени суток и вашего никнейма.
+
+3. Интерфейс:
+   - Кнопка RU/EN в правом верхнем углу главного экрана — переключение языка.
+   - Кнопка «ВЫХОД» в правом нижнем углу — закрытие приложения.
+   - На первом запуске язык выбирается кнопками «Русский» / «English».
+
+4. Управление:
+   - Enter — подтвердить ввод никнейма или статуса.
+   - Backspace — удалить символ перед кареткой.
+   - Стрелки ← / → — перемещение каретки в текстовом поле.
+   - Home / End — переход в начало или конец строки.
+   - Стрелки ↑ / ↓ — навигация по истории статусов (до 10 записей).
+   - Мышь — взаимодействие с кнопками интерфейса.
+
+5. История статусов:
+   - Все отправленные статусы сохраняются в историю.
+   - Максимум — 10 последних статусов.
+   - Стрелка ↑ выбирает более старые записи, стрелка ↓ — более новые.
+   - При выходе за пределы истории поле очищается.
+
+6. Сохранение:
+   - Язык, никнейм и история сохраняются в скрытый файл:
+     Me Informer by {MFDT}.dat
+   - Файл находится рядом с исполняемым файлом.
+   - Данные шифруются XOR. Не редактируйте файл вручную.
+
+7. Требования:
+   - Windows.
+   - Запущенный Discord.
+   - Файл arial.ttf рядом с exe.
+   - Для отображения логотипа «mfdt» он должен быть загружен в Discord Developer Portal для указанного Application ID.
+
+8. Устранение неполадок:
+   - Статус не появляется: проверьте, запущен ли Discord, верны ли Application ID и ключ логотипа.
+   - Шрифт не загружается: положите arial.ttf рядом с exe.
+   - Настройки не сохраняются: проверьте права на запись в папку с программой.
+   - Если файл данных повреждён, удалите его — программа создаст новый при следующем запуске.
+
+--------------------------------------------------
+
+ENGLISH LANGUAGE:
+
+1. Preparation:
+   - Launch Discord and sign in.
+   - Run Me Informer by {MFDT}.exe.
+   - On first launch, select language: "Русский" or "English".
+   - Then enter your nickname and press Enter.
+
+2. Main Screen:
+   - Enter status text into the input field and press Enter.
+   - The status will be updated in Discord Rich Presence.
+   - The last submitted status is displayed at the bottom of the window.
+   - The top of the window shows a greeting based on the time of day and your nickname.
+
+3. Interface:
+   - RU/EN button in the top-right corner of the main screen — switch language.
+   - EXIT button in the bottom-right corner — close the application.
+   - On first launch, language is selected with the "Русский" / "English" buttons.
+
+4. Controls:
+   - Enter — confirm nickname or status input.
+   - Backspace — delete the character before the caret.
+   - Arrow keys ← / → — move the caret in the text field.
+   - Home / End — move to the beginning or end of the line.
+   - Arrow keys ↑ / ↓ — navigate status history (up to 10 entries).
+   - Mouse — interact with interface buttons.
+
+5. Status History:
+   - All submitted statuses are saved to history.
+   - Maximum — 10 latest statuses.
+   - Up arrow selects older entries, down arrow selects newer ones.
+   - When leaving the history range, the input field is cleared.
+
+6. Saving:
+   - Language, nickname, and history are saved to a hidden file:
+     Me Informer by {MFDT}.dat
+   - The file is located next to the executable.
+   - Data is XOR-encrypted. Do not edit the file manually.
+
+7. Requirements:
+   - Windows.
+   - Running Discord.
+   - arial.ttf file next to the exe.
+   - For the "mfdt" logo to display, it must be uploaded in the Discord Developer Portal for the specified Application ID.
+
+8. Troubleshooting:
+   - Status does not appear: check that Discord is running, and verify the Application ID and logo key.
+   - Font does not load: place arial.ttf next to the exe.
+   - Settings are not saved: check write permissions for the program folder.
+   - If the data file is corrupted, delete it — the program will create a new one on the next launch.
